@@ -291,7 +291,7 @@ function Helmets(props) {
                         price: formatPrice(item.avg24hPrice),
                         image:
                             item.iconLink ||
-                            'https://tarkov-tools.com/images/unknown-item-icon.jpg',
+                            'https://tarkov.dev/images/unknown-item-icon.jpg',
                         wikiLink: item.wikiLink,
                         itemLink: `/item/${item.normalizedName}`,
                         subRows: item.linkedItems.map((linkedItemId) => {
